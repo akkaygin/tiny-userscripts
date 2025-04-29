@@ -6,3 +6,6 @@ Checkmarks fried my brain and took away my ability to interact with posts, in ca
 
 ## [Redirect to Old Reddit](https://github.com/akkaygin/tiny-userscripts/raw/refs/heads/main/redditRedirect.user.js)
 New reddit is disgusting, redirects regular `reddit.com` links to `old.reddit.com`.
+
+## [Declutter Old Reddit](https://github.com/akkaygin/tiny-userscripts/raw/refs/heads/main/redditDeclutter.user.js)
+Yeah, the old one is not good either. Nukes everything except the actual content that you are looking for and centers the page. Works best with RES night mode. Super hacky and may break anytime.
