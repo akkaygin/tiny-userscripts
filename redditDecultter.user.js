@@ -6,18 +6,13 @@
 // @author       Ali Kayra Kaygin
 // @match        *://old.reddit.com/*
 // @grant        none
-// @run-at       start
+// @run-at       end
 // ==/UserScript==
 
 (function () {
   'use strict';
 
   function declutter() {
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", declutter());
-      return;
-    }
-
     const header = document.getElementById('header');
     header.remove();
 
@@ -29,7 +24,7 @@
 
     const footer = document.getElementsByClassName('footer-parent')[0];
     footer.remove();
-    
+
     const bottommenu = document.getElementsByClassName('bottommenu')[0];
     bottommenu.remove();
 
