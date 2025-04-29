@@ -16,7 +16,7 @@
   const redirect = () => {
     const currentURL = window.location.href;
     const newURL = currentURL.replace(/(www\.)?reddit\.com/, "old.reddit.com");
-    window.location.href = newURL;
+    window.location.replace(newURL);
   }
 
   redirect();
