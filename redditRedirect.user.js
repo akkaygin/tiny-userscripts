@@ -13,7 +13,7 @@
 (function () {
   'use strict';
 
-  const redirect = () => {
+  function redirect() {
     const currentURL = window.location.href;
     const newURL = currentURL.replace(/(www\.)?reddit\.com/, "old.reddit.com");
     window.location.replace(newURL);
