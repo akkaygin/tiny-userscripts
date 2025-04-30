@@ -7,7 +7,7 @@
 // @match        https://x.com/*
 // @icon         https://abs.twimg.com/favicons/twitter.ico
 // @grant        none
-// @run-at       document-start
+// @run-at       end
 // ==/UserScript==
 
 (function () {
@@ -30,5 +30,4 @@
   });
 
   removeBlueChecks();
-  window.addEventListener('load', removeBlueChecks);
 })();
