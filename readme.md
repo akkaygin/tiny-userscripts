@@ -9,3 +9,6 @@ New reddit is disgusting, redirects regular `reddit.com` links to `old.reddit.co
 
 ## [Declutter Old Reddit](https://github.com/akkaygin/tiny-userscripts/raw/refs/heads/main/redditDeclutter.user.js)
 Yeah, the old one is not good either. Nukes everything except the actual content that you are looking for and centers the page. Works best with RES night mode. Super hacky and may break anytime.
+
+## [Force Default Monospaced Font?](https://github.com/akkaygin/tiny-userscripts/raw/refs/heads/main/forceDefaultMonospacedFont.user.js)
+Tries to force all monospaced (changes `code, kbd, pre, samp, tt, var` blocks font, that is all) fonts to the default monospaced font, because mine is better.
